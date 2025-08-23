@@ -1,0 +1,127 @@
+@media (max-width: 480px) {
+  * {
+    margin: 0vh;
+    padding: 0vh;
+    background-color: black;
+    color: white;
+    overflow: hidden;
+  }
+  .header {
+    height: 5vh;
+    width: 100%;
+    display: flex;
+    overflow-y: hidden;
+  }
+  .logo {
+    height: 50px;
+    position: relative;
+    left: 10vw;
+  }
+  .shadow {
+    position: relative;
+    left: 10vw;
+    top: 2vh;
+    font-size: large;
+    font-weight: 700;
+  }
+  .inter {
+    height: 80vh;
+    width: 100%;
+  }
+  .welcome {
+    position: relative;
+    left: 10vw;
+    bottom: 80vh;
+    font-size: 50px;
+    font-weight: 300;
+    background-color: transparent;
+  }
+  .login {
+    position: relative;
+    left: 10vw;
+    bottom: 80vh;
+    font-size: 40px;
+    font-weight: 100;
+    background-color: transparent;
+  }
+  .emaillable {
+    height: 4vh;
+    width: 20vw;
+    position: relative;
+    bottom: 80vh;
+    left: 10vw;
+    color: lightseagreen;
+    background-color: transparent;
+    border-radius: 10px;
+  }
+  .email {
+    height: 3vh;
+    width: 30vw;
+    position: relative;
+    bottom: 79vh;
+    left: 10vw;
+    background-color: transparent;
+    border-radius: 3px;
+    border: 0.01px solid;
+    border-color: lightseagreen;
+    outline: none;
+  }
+  .paswardlable {
+    height: 3vh;
+    width: 20vw;
+    position: relative;
+    bottom: 75vh;
+    left: -20vw;
+    color: lightseagreen;
+  }
+  .password {
+    height: 3vh;
+    width: 30vw;
+    position: relative;
+    bottom: 75vh;
+    left: 10vw;
+    color: lightseagreen;
+    background-color: transparent;
+    border-radius: 5px;
+    border: 0.01px solid;
+    outline: none;
+  }
+  .forgit {
+    text-decoration: none;
+    position: relative;
+    bottom: 70vh;
+    left: -20vw;
+    color: lightseagreen;
+    background-color: transparent;
+    cursor: pointer;
+  }
+  .loginbtn {
+    height: 4vh;
+    width: 30vw;
+    position: relative;
+    bottom: 70vh;
+    left: 5vh;
+    border: 1px solid lightseagreen;
+    border-radius: 5px;
+    box-shadow: inset 6px 22px 40px lightseagreen;
+    font-size: large;
+    font-weight: 600;
+    cursor: pointer;
+  }
+  .not {
+    position: relative;
+    bottom: 67vh;
+    left: 10vw;
+    background-color: transparent;
+  }
+  .sign {
+    height: 3vh;
+    width: 30vw;
+    border-radius: 5px;
+    border: 1px solid lightseagreen;
+    position: relative;
+    bottom: 65vh;
+    left: 10vw;
+    cursor: pointer;
+  }
+}

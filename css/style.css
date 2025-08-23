@@ -1,0 +1,159 @@
+* {
+  margin: 0vh;
+  padding: 0vh;
+  background-color: black;
+  color: white;
+}
+.head {
+  height: 10vh;
+  width: 100%;
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+}
+.option {
+  height: 10vh;
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  font-size: xx-large;
+  font-weight: 900;
+}
+.login {
+  border-radius: 5px;
+  height: 5vh;
+  width: 7vw;
+  border: 1px solid lightgreen;
+  cursor: pointer;
+}
+.SIGN-UP {
+  border-radius: 5px;
+  height: 5vh;
+  width: 7vw;
+  border: 1px solid lightgreen;
+  box-shadow: inset 1px 1px 50px lightgreen;
+  margin-right: 5vh;
+}
+.front {
+  height: 90vh;
+  width: 100%;
+}
+.welcome {
+  font-size: xxx-large;
+  font-weight: 800;
+  position: absolute;
+  top: 30vh;
+  left: 10vw;
+  background-color: transparent;
+}
+.join {
+  height: 7vh;
+  width: 25vw;
+  font-size: xx-large;
+  border: 1px solid blue;
+  text-align: center;
+  align-content: center;
+  font-weight: 800;
+  border-radius: 5px;
+  box-shadow: inset 5px 5px 100px rgb(98, 98, 235);
+  position: absolute;
+  top: 70vh;
+  left: 2vw;
+}
+.watch-live {
+  height: 7vh;
+  width: 25vw;
+  font-size: xx-large;
+  border: 1px solid blue;
+  text-align: center;
+  align-content: center;
+  font-weight: 800;
+  border-radius: 5px;
+  box-shadow: inset 5px 5px 100px rgb(22, 209, 37);
+  position: absolute;
+  top: 70vh;
+  left: 30vw;
+}
+.store {
+  font-size: large;
+  font-weight: 800;
+  color: blue;
+  margin-left: 3vw;
+  border: none;
+}
+
+.contener {
+  height: 30vh;
+  width: 100%;
+  display: flex;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  scrollbar-width: none;
+}
+.keybord {
+  height: 30vh;
+}
+footer {
+  overflow-x: hidden;
+  background-color: rgb(99, 117, 219);
+  box-shadow: inset 50vh 50vh 50vh black;
+}
+.links {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  left: 20vw;
+  top: 15vh;
+  gap: 3vh;
+  background-color: transparent;
+}
+.quick {
+  font-size: xx-large;
+  font-weight: 700;
+  position: relative;
+  bottom: 5vh;
+}
+.anker {
+  text-decoration: none;
+  font-size: x-large;
+}
+.social {
+  font-size: xx-large;
+  font-weight: 900;
+  position: relative;
+  bottom: 28vh;
+  left: 50vw;
+  background-color: transparent;
+}
+.icon {
+  font-size: xx-large;
+  display: flex;
+  position: relative;
+  left: 50vw;
+  bottom: 25vh;
+  gap: 5vh;
+  background-color: transparent;
+}
+.legal {
+  font-size: xx-large;
+  font-weight: 400;
+  position: relative;
+  bottom: 23vh;
+  left: 50vw;
+  background-color: transparent;
+}
+.condition {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  left: 50vw;
+  bottom: 20vh;
+  gap: 3vh;
+  background-color: transparent;
+}
+.colur {
+  background-color: transparent;
+}
